@@ -1,0 +1,151 @@
+{
+  "mod_elements": [
+    {
+      "name": "HBAnimals",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hb_animals",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ReptileSkin",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reptile_skin",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/ReptileSkinItem.java",
+          "src/main/resources/assets/herabowsanimals/models/item/reptile_skin.json"
+        ]
+      }
+    },
+    {
+      "name": "ReptileArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reptile_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/herabowsanimals/models/item/reptile_armor_helmet.json",
+          "src/main/java/net/mcreator/herabowsanimals/item/ReptileArmorItem.java",
+          "src/main/resources/assets/herabowsanimals/models/item/reptile_armor_leggings.json",
+          "src/main/resources/assets/herabowsanimals/models/item/reptile_armor_boots.json",
+          "src/main/resources/assets/herabowsanimals/models/item/reptile_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "ReptileArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reptile_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabowsanimals/recipe/reptile_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReptileArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reptile_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabowsanimals/recipe/reptile_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReptileArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reptile_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabowsanimals/recipe/reptile_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReptileArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "reptile_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabowsanimals/recipe/reptile_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:ReptileArmor.body"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:ReptileArmor.helmet"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:ReptileArmor.boots"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:ReptileArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.herabowsanimals.reptile_armor_leggings": "Reptile Leggings",
+      "item_group.herabowsanimals.hb_animals": "HB: Animals",
+      "item.herabowsanimals.reptile_skin": "Reptile Skin",
+      "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
+      "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
+      "item.herabowsanimals.reptile_armor_boots": "Reptile Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Crocodile",
+        "children": []
+      },
+      {
+        "name": "Komodo Warran",
+        "children": []
+      },
+      {
+        "name": "Snakes",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "herabowsanimals",
+    "modName": "Herabow\u0027s Animals",
+    "version": "1.0.0",
+    "author": "Romek, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.mcreator.herabowsanimals"
+  },
+  "mcreatorVersion": 202400452410
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "herabowsanimals:reptile_skin"
+    }
+  },
+  "result": {
+    "id": "herabowsanimals:reptile_armor_boots",
+    "count": 1
+  }
+}
