@@ -136,7 +136,7 @@
     "modid": "herabowsanimals",
     "modName": "Herabow\u0027s Animals",
     "version": "1.0.0",
-    "author": "Romek, MCreator",
+    "author": "Papa Enny , MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Not specified",
     "serverSideOnly": false,
@@ -145,6 +145,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "neoforge-1.21.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.herabowsanimals"
   },
   "mcreatorVersion": 202400452410
