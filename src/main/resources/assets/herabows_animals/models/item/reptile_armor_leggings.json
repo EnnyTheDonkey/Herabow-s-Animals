@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "herabows_animals:item/reptile_leggings"
+  }
+}

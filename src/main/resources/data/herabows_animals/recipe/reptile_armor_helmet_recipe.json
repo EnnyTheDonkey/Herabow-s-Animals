@@ -7,11 +7,11 @@
   ],
   "key": {
     "a": {
-      "item": "herabowsanimals:reptile_skin"
+      "item": "herabows_animals:reptile_skin"
     }
   },
   "result": {
-    "id": "herabowsanimals:reptile_armor_helmet",
+    "id": "herabows_animals:reptile_armor_helmet",
     "count": 1
   }
 }

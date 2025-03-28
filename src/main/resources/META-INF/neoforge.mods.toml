@@ -3,7 +3,7 @@ loaderVersion="[4,)"
 license="Not specified"
 
 [[mods]]
-modId="herabowsanimals"
+modId="herabows_animals"
 version="1.0.0"
 displayName="Herabow's Animals"
 displayURL="https://mcreator.net"
@@ -13,14 +13,14 @@ authors="Papa Enny , MCreator"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-[[dependencies.herabowsanimals]]
+[[dependencies.herabows_animals]]
     modId="neoforge"
     type="required"
     versionRange="[21.1.65,)"
     ordering="AFTER"
     side="BOTH"
 
-[[dependencies.herabowsanimals]]
+[[dependencies.herabows_animals]]
     modId="minecraft"
     type="required"
     versionRange="[1.21.1]"
