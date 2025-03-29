@@ -8,7 +8,7 @@ version="1.0.0"
 displayName="Herabow's Animals"
 displayURL="https://mcreator.net"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
-authors="Papa Enny , MCreator"
+authors="Papa Enny, Tucky143, MCreator"
 
 # Start of user code block mod configuration
 # End of user code block mod configuration
@@ -28,6 +28,12 @@ authors="Papa Enny , MCreator"
     side="BOTH"
 
 
+[[dependencies.herabows_animals]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

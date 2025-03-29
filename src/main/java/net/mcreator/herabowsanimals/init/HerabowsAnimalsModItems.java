@@ -11,6 +11,10 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.herabowsanimals.item.ReptileSkinItem;
 import net.mcreator.herabowsanimals.item.ReptileArmorItem;
+import net.mcreator.herabowsanimals.item.MouseMeatItem;
+import net.mcreator.herabowsanimals.item.MouseMeatCookedItem;
+import net.mcreator.herabowsanimals.item.CrocodileMeatItem;
+import net.mcreator.herabowsanimals.item.CrocodileMeatCookedItem;
 import net.mcreator.herabowsanimals.HerabowsAnimalsMod;
 
 public class HerabowsAnimalsModItems {
@@ -20,6 +24,10 @@ public class HerabowsAnimalsModItems {
 	public static final DeferredItem<Item> REPTILE_ARMOR_CHESTPLATE = REGISTRY.register("reptile_armor_chestplate", ReptileArmorItem.Chestplate::new);
 	public static final DeferredItem<Item> REPTILE_ARMOR_LEGGINGS = REGISTRY.register("reptile_armor_leggings", ReptileArmorItem.Leggings::new);
 	public static final DeferredItem<Item> REPTILE_ARMOR_BOOTS = REGISTRY.register("reptile_armor_boots", ReptileArmorItem.Boots::new);
+	public static final DeferredItem<Item> CROCODILE_MEAT = REGISTRY.register("crocodile_meat", CrocodileMeatItem::new);
+	public static final DeferredItem<Item> CROCODILE_MEAT_COOKED = REGISTRY.register("crocodile_meat_cooked", CrocodileMeatCookedItem::new);
+	public static final DeferredItem<Item> MOUSE_MEAT = REGISTRY.register("mouse_meat", MouseMeatItem::new);
+	public static final DeferredItem<Item> MOUSE_MEAT_COOKED = REGISTRY.register("mouse_meat_cooked", MouseMeatCookedItem::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }

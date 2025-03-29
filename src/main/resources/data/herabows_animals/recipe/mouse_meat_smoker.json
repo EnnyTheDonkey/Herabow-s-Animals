@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smoking",
+  "group": "meat",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "herabows_animals:mouse_meat"
+  },
+  "result": {
+    "id": "herabows_animals:mouse_meat_cooked"
+  }
+}
