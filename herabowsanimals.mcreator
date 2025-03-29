@@ -86,6 +86,19 @@
           "src/main/resources/data/herabowsanimals/recipe/reptile_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "TBR",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tbr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/TBRItem.java",
+          "src/main/resources/assets/herabowsanimals/models/item/tbr.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -110,6 +123,7 @@
       "item.herabowsanimals.reptile_armor_leggings": "Reptile Leggings",
       "item_group.herabowsanimals.hb_animals": "HB: Animals",
       "item.herabowsanimals.reptile_skin": "Reptile Skin",
+      "item.herabowsanimals.tbr": "Reptile Skin",
       "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
       "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
       "item.herabowsanimals.reptile_armor_boots": "Reptile Boots"

@@ -25,6 +25,7 @@ public class HerabowsanimalsModTabs {
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> HB_ANIMALS = REGISTRY.register("hb_animals",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.herabowsanimals.hb_animals")).icon(() -> new ItemStack(Blocks.SLIME_BLOCK)).displayItems((parameters, tabData) -> {
 				tabData.accept(HerabowsanimalsModItems.REPTILE_SKIN.get());
+				tabData.accept(HerabowsanimalsModItems.TBR.get());
 			}).build());
 
 	@SubscribeEvent
