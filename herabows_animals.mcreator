@@ -220,6 +220,21 @@
         ]
       },
       "path": "~/Meat/Mouse"
+    },
+    {
+      "name": "Mouse",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/entity/MouseEntity.java",
+          "src/main/resources/assets/herabows_animals/models/item/mouse_spawn_egg.json",
+          "src/main/resources/data/herabows_animals/neoforge/biome_modifier/mouse_biome_modifier.json",
+          "src/main/java/net/mcreator/herabowsanimals/client/renderer/MouseRenderer.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -235,6 +250,8 @@
       "~CUSTOM:ReptileArmor.body"
     ],
     "ITEMS:minecraft:meat": [
+      "~CUSTOM:CrocodileMeat",
+      "~CUSTOM:CrocodileMeatCooked",
       "~CUSTOM:MouseMeatCooked",
       "~CUSTOM:MouseMeat"
     ],
@@ -260,10 +277,11 @@
       "item.herabowsanimals.reptile_armor_leggings": "Gadzie nogawice",
       "item.herabows_animals.reptile_skin": "Gadzia skóra",
       "item.herabowsanimals.reptile_skin": "Gadzia skóra",
-      "item.herabows_animals.reptile_armor_chestplate": "Gadzi napierśnik",
       "item.herabows_animals.reptile_armor_boots": "Gadzie buty",
+      "item.herabows_animals.reptile_armor_chestplate": "Gadzi napierśnik",
       "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
       "item.herabows_animals.crocodile_meat": "Mięso krokodyla",
+      "item.herabows_animals.mouse_spawn_egg": "Jajo spawnujące myszę",
       "item.herabows_animals.mouse_meat": "Mysie mięso",
       "item.herabowsanimals.reptile_armor_boots": "Gadzie buty",
       "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
@@ -272,7 +290,8 @@
       "item.herabows_animals.mouse_meat_cooked": "Pieczone mysie mięso",
       "item.herabowsanimals.reptile_armor_helmet": "Gadzi hełm",
       "item.herabowsanimals.reptile_armor_chestplate": "Gadzi napierśnik",
-      "item.herabows_animals.crocodile_meat_cooked": "Pieczone mięso krokodyla"
+      "item.herabows_animals.crocodile_meat_cooked": "Pieczone mięso krokodyla",
+      "entity.herabows_animals.mouse": "Mysza"
     },
     "en_us": {
       "item.herabowsanimals.reptile_armor_leggings": "Reptile Leggings",
@@ -282,6 +301,7 @@
       "item.herabows_animals.reptile_armor_boots": "Reptile Boots",
       "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
       "item.herabows_animals.crocodile_meat": "Crocodile Meat",
+      "item.herabows_animals.mouse_spawn_egg": "Mouse Spawn Egg",
       "item.herabows_animals.mouse_meat": "Mouse Meat",
       "item.herabowsanimals.reptile_armor_boots": "Reptile Boots",
       "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
@@ -290,7 +310,8 @@
       "item.herabows_animals.mouse_meat_cooked": "Cooked Mouse Meat",
       "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
       "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
-      "item.herabows_animals.crocodile_meat_cooked": "Cooked Crocodile Meat"
+      "item.herabows_animals.crocodile_meat_cooked": "Cooked Crocodile Meat",
+      "entity.herabows_animals.mouse": "Mouse"
     }
   },
   "foldersRoot": {

@@ -33,6 +33,7 @@ public class HerabowsAnimalsModTabs {
 				tabData.accept(HerabowsAnimalsModItems.CROCODILE_MEAT_COOKED.get());
 				tabData.accept(HerabowsAnimalsModItems.MOUSE_MEAT.get());
 				tabData.accept(HerabowsAnimalsModItems.MOUSE_MEAT_COOKED.get());
+				tabData.accept(HerabowsAnimalsModItems.MOUSE_SPAWN_EGG.get());
 			}).build());
 
 	@SubscribeEvent
@@ -42,6 +43,8 @@ public class HerabowsAnimalsModTabs {
 			tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_CHESTPLATE.get());
 			tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_LEGGINGS.get());
 			tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_BOOTS.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(HerabowsAnimalsModItems.MOUSE_SPAWN_EGG.get());
 		}
 	}
 }

@@ -6,6 +6,7 @@ package net.mcreator.herabowsanimals.init;
 
 import net.neoforged.neoforge.registries.DeferredRegister;
 import net.neoforged.neoforge.registries.DeferredItem;
+import net.neoforged.neoforge.common.DeferredSpawnEggItem;
 
 import net.minecraft.world.item.Item;
 
@@ -28,6 +29,7 @@ public class HerabowsAnimalsModItems {
 	public static final DeferredItem<Item> CROCODILE_MEAT_COOKED = REGISTRY.register("crocodile_meat_cooked", CrocodileMeatCookedItem::new);
 	public static final DeferredItem<Item> MOUSE_MEAT = REGISTRY.register("mouse_meat", MouseMeatItem::new);
 	public static final DeferredItem<Item> MOUSE_MEAT_COOKED = REGISTRY.register("mouse_meat_cooked", MouseMeatCookedItem::new);
+	public static final DeferredItem<Item> MOUSE_SPAWN_EGG = REGISTRY.register("mouse_spawn_egg", () -> new DeferredSpawnEggItem(HerabowsAnimalsModEntities.MOUSE, -6710887, -13108, new Item.Properties()));
 	// Start of user code block custom items
 	// End of user code block custom items
 }

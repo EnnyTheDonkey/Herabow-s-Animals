@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
+    "herabows_animals:crocodile_meat",
+    "herabows_animals:crocodile_meat_cooked",
     "herabows_animals:mouse_meat_cooked",
     "herabows_animals:mouse_meat"
   ]

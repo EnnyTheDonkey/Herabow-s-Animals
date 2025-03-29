@@ -6,6 +6,7 @@
   "item.herabows_animals.reptile_armor_boots": "Reptile Boots",
   "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
   "item.herabows_animals.crocodile_meat": "Crocodile Meat",
+  "item.herabows_animals.mouse_spawn_egg": "Mouse Spawn Egg",
   "item.herabows_animals.mouse_meat": "Mouse Meat",
   "item.herabowsanimals.reptile_armor_boots": "Reptile Boots",
   "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
@@ -14,5 +15,6 @@
   "item.herabows_animals.mouse_meat_cooked": "Cooked Mouse Meat",
   "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
   "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
-  "item.herabows_animals.crocodile_meat_cooked": "Cooked Crocodile Meat"
+  "item.herabows_animals.crocodile_meat_cooked": "Cooked Crocodile Meat",
+  "entity.herabows_animals.mouse": "Mouse"
 }
