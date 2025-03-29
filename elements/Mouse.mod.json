@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Mouse",
     "mobLabel": "",
-    "mobModelName": "Biped",
+    "mobModelName": "ModelMouse",
     "mobModelTexture": "mouse.png",
     "transparentModelCondition": {
       "fixedValue": false
