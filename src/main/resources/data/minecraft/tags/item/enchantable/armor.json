@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "herabows_animals:reptile_armor_helmet",
+    "herabows_animals:reptile_armor_chestplate",
+    "herabows_animals:reptile_armor_leggings",
+    "herabows_animals:reptile_armor_boots"
+  ]
+}

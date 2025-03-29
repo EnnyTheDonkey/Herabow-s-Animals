@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "equipment",
   "pattern": [
-    "a a",
     "aaa",
-    "aaa"
+    "a a",
+    "a a"
   ],
   "key": {
     "a": {
-      "item": "herabowsanimals:reptile_skin"
+      "item": "herabows_animals:reptile_skin"
     }
   },
   "result": {
-    "id": "herabowsanimals:reptile_armor_chestplate",
+    "id": "herabows_animals:reptile_armor_leggings",
     "count": 1
   }
 }

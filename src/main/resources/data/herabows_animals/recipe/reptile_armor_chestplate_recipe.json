@@ -3,15 +3,16 @@
   "category": "equipment",
   "pattern": [
     "a a",
-    "a a"
+    "aaa",
+    "aaa"
   ],
   "key": {
     "a": {
-      "item": "herabowsanimals:reptile_skin"
+      "item": "herabows_animals:reptile_skin"
     }
   },
   "result": {
-    "id": "herabowsanimals:reptile_armor_boots",
+    "id": "herabows_animals:reptile_armor_chestplate",
     "count": 1
   }
 }

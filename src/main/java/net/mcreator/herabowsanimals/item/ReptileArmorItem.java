@@ -17,7 +17,7 @@ import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.Holder;
 import net.minecraft.Util;
 
-import net.mcreator.herabowsanimals.init.HerabowsanimalsModItems;
+import net.mcreator.herabowsanimals.init.HerabowsAnimalsModItems;
 
 import java.util.List;
 import java.util.EnumMap;
@@ -35,9 +35,9 @@ public abstract class ReptileArmorItem extends ArmorItem {
 				map.put(ArmorItem.Type.CHESTPLATE, 6);
 				map.put(ArmorItem.Type.HELMET, 2);
 				map.put(ArmorItem.Type.BODY, 6);
-			}), 9, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(HerabowsanimalsModItems.REPTILE_SKIN.get())), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("herabowsanimals:reptile"))), 0f,
-					0f);
-			registerHelper.register(ResourceLocation.parse("herabowsanimals:reptile_armor"), armorMaterial);
+			}), 9, BuiltInRegistries.SOUND_EVENT.wrapAsHolder(SoundEvents.EMPTY), () -> Ingredient.of(new ItemStack(HerabowsAnimalsModItems.REPTILE_SKIN.get())), List.of(new ArmorMaterial.Layer(ResourceLocation.parse("herabows_animals:reptile"))),
+					0f, 0f);
+			registerHelper.register(ResourceLocation.parse("herabows_animals:reptile_armor"), armorMaterial);
 			ARMOR_MATERIAL = BuiltInRegistries.ARMOR_MATERIAL.wrapAsHolder(armorMaterial);
 		});
 	}

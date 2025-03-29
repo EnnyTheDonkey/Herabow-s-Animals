@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "herabowsanimals:item/crocodile_skin"
+    "layer0": "herabows_animals:item/crocodile_skin"
   }
 }
