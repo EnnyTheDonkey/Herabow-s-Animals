@@ -3,12 +3,12 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "reptile_skin",
+    "texture": "crocodile_skin",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Reptile Skin",
-    "rarity": "COMMON",
+    "name": "Crocodile Scale",
+    "rarity": "UNCOMMON",
     "creativeTabs": [
       {
         "value": "CUSTOM:HBAnimals"

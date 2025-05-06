@@ -11,6 +11,8 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.herabowsanimals.item.ReptileSkinItem;
 import net.mcreator.herabowsanimals.item.ReptileArmorItem;
+import net.mcreator.herabowsanimals.item.CrocodileScaleItem;
+import net.mcreator.herabowsanimals.item.CrocodileArmorItem;
 import net.mcreator.herabowsanimals.HerabowsAnimalsMod;
 
 public class HerabowsAnimalsModItems {
@@ -20,6 +22,11 @@ public class HerabowsAnimalsModItems {
 	public static final DeferredItem<Item> REPTILE_ARMOR_CHESTPLATE = REGISTRY.register("reptile_armor_chestplate", ReptileArmorItem.Chestplate::new);
 	public static final DeferredItem<Item> REPTILE_ARMOR_LEGGINGS = REGISTRY.register("reptile_armor_leggings", ReptileArmorItem.Leggings::new);
 	public static final DeferredItem<Item> REPTILE_ARMOR_BOOTS = REGISTRY.register("reptile_armor_boots", ReptileArmorItem.Boots::new);
+	public static final DeferredItem<Item> CROCODILE_SCALE = REGISTRY.register("crocodile_scale", CrocodileScaleItem::new);
+	public static final DeferredItem<Item> CROCODILE_ARMOR_HELMET = REGISTRY.register("crocodile_armor_helmet", CrocodileArmorItem.Helmet::new);
+	public static final DeferredItem<Item> CROCODILE_ARMOR_CHESTPLATE = REGISTRY.register("crocodile_armor_chestplate", CrocodileArmorItem.Chestplate::new);
+	public static final DeferredItem<Item> CROCODILE_ARMOR_LEGGINGS = REGISTRY.register("crocodile_armor_leggings", CrocodileArmorItem.Leggings::new);
+	public static final DeferredItem<Item> CROCODILE_ARMOR_BOOTS = REGISTRY.register("crocodile_armor_boots", CrocodileArmorItem.Boots::new);
 	// Start of user code block custom items
 	// End of user code block custom items
 }

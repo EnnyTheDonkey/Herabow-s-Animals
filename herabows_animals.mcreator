@@ -86,6 +86,89 @@
           "src/main/resources/data/herabows_animals/recipe/reptile_armor_boots_recipe.json"
         ]
       }
+    },
+    {
+      "name": "CrocodileScale",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_scale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileScaleItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_scale.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileArmorItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_leggings.json",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_helmet.json",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_boots.json",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Crocodile"
     }
   ],
   "variable_elements": [],
@@ -95,24 +178,36 @@
       "CUSTOM:ReptileArmor.helmet",
       "CUSTOM:ReptileArmor.body",
       "CUSTOM:ReptileArmor.legs",
-      "CUSTOM:ReptileArmor.boots"
+      "CUSTOM:ReptileArmor.boots",
+      "CUSTOM:CrocodileArmor.helmet",
+      "CUSTOM:CrocodileArmor.body",
+      "CUSTOM:CrocodileArmor.legs",
+      "CUSTOM:CrocodileArmor.boots"
     ],
     "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:CrocodileArmor.body",
       "~CUSTOM:ReptileArmor.body"
     ],
     "ITEMS:minecraft:trimmable_armor": [
       "CUSTOM:ReptileArmor.helmet",
       "CUSTOM:ReptileArmor.body",
       "CUSTOM:ReptileArmor.legs",
-      "CUSTOM:ReptileArmor.boots"
+      "CUSTOM:ReptileArmor.boots",
+      "CUSTOM:CrocodileArmor.helmet",
+      "CUSTOM:CrocodileArmor.body",
+      "CUSTOM:CrocodileArmor.legs",
+      "CUSTOM:CrocodileArmor.boots"
     ],
     "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:CrocodileArmor.helmet",
       "~CUSTOM:ReptileArmor.helmet"
     ],
     "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:CrocodileArmor.boots",
       "~CUSTOM:ReptileArmor.boots"
     ],
     "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:CrocodileArmor.legs",
       "~CUSTOM:ReptileArmor.legs"
     ]
   },
@@ -122,15 +217,20 @@
       "item.herabowsanimals.reptile_armor_leggings": "Reptile Leggings",
       "item.herabows_animals.reptile_skin": "Reptile Skin",
       "item.herabowsanimals.reptile_skin": "Reptile Skin",
-      "item.herabows_animals.reptile_armor_chestplate": "Reptile Chestplate",
       "item.herabows_animals.reptile_armor_boots": "Reptile Boots",
+      "item.herabows_animals.reptile_armor_chestplate": "Reptile Chestplate",
       "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
+      "item.herabows_animals.crocodile_armor_chestplate": "Crocodile Chestplate",
+      "item.herabows_animals.crocodile_armor_leggings": "Crocodile Leggings",
       "item.herabowsanimals.reptile_armor_boots": "Reptile Boots",
+      "item.herabows_animals.crocodile_armor_helmet": "Crocodile Helmet",
+      "item.herabows_animals.crocodile_scale": "Crocodile Scale",
       "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
       "item.herabows_animals.reptile_armor_helmet": "Reptile Helmet",
       "item.herabows_animals.reptile_armor_leggings": "Reptile Leggings",
       "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
-      "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate"
+      "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
+      "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots"
     }
   },
   "foldersRoot": {

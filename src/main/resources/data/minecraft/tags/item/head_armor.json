@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "herabows_animals:crocodile_armor_helmet",
     "herabows_animals:reptile_armor_helmet"
   ]
 }

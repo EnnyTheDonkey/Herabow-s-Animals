@@ -1,0 +1,48 @@
+{
+  "_fv": 73,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CrocodileScale"
+      },
+      {
+        "value": "CUSTOM:CrocodileScale"
+      },
+      {
+        "value": "CUSTOM:CrocodileScale"
+      },
+      {
+        "value": "CUSTOM:CrocodileScale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CrocodileScale"
+      },
+      {
+        "value": "CUSTOM:CrocodileScale"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CrocodileScale"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrocodileArmor.legs"
+    },
+    "name": "crocodile_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

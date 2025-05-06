@@ -2,13 +2,18 @@
   "item.herabowsanimals.reptile_armor_leggings": "Reptile Leggings",
   "item.herabows_animals.reptile_skin": "Reptile Skin",
   "item.herabowsanimals.reptile_skin": "Reptile Skin",
-  "item.herabows_animals.reptile_armor_chestplate": "Reptile Chestplate",
   "item.herabows_animals.reptile_armor_boots": "Reptile Boots",
+  "item.herabows_animals.reptile_armor_chestplate": "Reptile Chestplate",
   "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
+  "item.herabows_animals.crocodile_armor_chestplate": "Crocodile Chestplate",
+  "item.herabows_animals.crocodile_armor_leggings": "Crocodile Leggings",
   "item.herabowsanimals.reptile_armor_boots": "Reptile Boots",
+  "item.herabows_animals.crocodile_armor_helmet": "Crocodile Helmet",
+  "item.herabows_animals.crocodile_scale": "Crocodile Scale",
   "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
   "item.herabows_animals.reptile_armor_helmet": "Reptile Helmet",
   "item.herabows_animals.reptile_armor_leggings": "Reptile Leggings",
   "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
-  "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate"
+  "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
+  "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots"
 }

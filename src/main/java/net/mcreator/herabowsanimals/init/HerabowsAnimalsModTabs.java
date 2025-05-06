@@ -29,6 +29,7 @@ public class HerabowsAnimalsModTabs {
 				tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_CHESTPLATE.get());
 				tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_LEGGINGS.get());
 				tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_BOOTS.get());
+				tabData.accept(HerabowsAnimalsModItems.CROCODILE_SCALE.get());
 			}).build());
 
 	@SubscribeEvent
@@ -38,6 +39,10 @@ public class HerabowsAnimalsModTabs {
 			tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_CHESTPLATE.get());
 			tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_LEGGINGS.get());
 			tabData.accept(HerabowsAnimalsModItems.REPTILE_ARMOR_BOOTS.get());
+			tabData.accept(HerabowsAnimalsModItems.CROCODILE_ARMOR_HELMET.get());
+			tabData.accept(HerabowsAnimalsModItems.CROCODILE_ARMOR_CHESTPLATE.get());
+			tabData.accept(HerabowsAnimalsModItems.CROCODILE_ARMOR_LEGGINGS.get());
+			tabData.accept(HerabowsAnimalsModItems.CROCODILE_ARMOR_BOOTS.get());
 		}
 	}
 }

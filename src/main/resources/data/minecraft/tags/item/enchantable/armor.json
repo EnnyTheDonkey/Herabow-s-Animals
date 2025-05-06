@@ -4,6 +4,10 @@
     "herabows_animals:reptile_armor_helmet",
     "herabows_animals:reptile_armor_chestplate",
     "herabows_animals:reptile_armor_leggings",
-    "herabows_animals:reptile_armor_boots"
+    "herabows_animals:reptile_armor_boots",
+    "herabows_animals:crocodile_armor_helmet",
+    "herabows_animals:crocodile_armor_chestplate",
+    "herabows_animals:crocodile_armor_leggings",
+    "herabows_animals:crocodile_armor_boots"
   ]
 }
