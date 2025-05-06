@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "group": "meat",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "herabows_animals:deleted_mod_element"
+  },
+  "result": {
+    "id": "herabows_animals:deleted_mod_element"
+  }
+}

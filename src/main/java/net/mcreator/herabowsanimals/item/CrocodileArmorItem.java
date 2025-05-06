@@ -1,29 +1,12 @@
 
 package net.mcreator.herabowsanimals.item;
 
-import net.neoforged.neoforge.registries.RegisterEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
-import net.neoforged.bus.api.SubscribeEvent;
-
-import net.minecraft.world.item.crafting.Ingredient;
-import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.ArmorMaterial;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.Holder;
-import net.minecraft.Util;
-
-import net.mcreator.herabowsanimals.init.HerabowsAnimalsModItems;
-
-import java.util.List;
-import java.util.EnumMap;
+import java.util.function.Consumer;
+import net.minecraft.client.model.Model;
 
 @EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public abstract class CrocodileArmorItem extends ArmorItem {
+
 	public static Holder<ArmorMaterial> ARMOR_MATERIAL = null;
 
 	@SubscribeEvent
@@ -47,26 +30,35 @@ public abstract class CrocodileArmorItem extends ArmorItem {
 	}
 
 	public static class Helmet extends CrocodileArmorItem {
+
 		public Helmet() {
 			super(ArmorItem.Type.HELMET, new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(12)));
 		}
+
 	}
 
 	public static class Chestplate extends CrocodileArmorItem {
+
 		public Chestplate() {
 			super(ArmorItem.Type.CHESTPLATE, new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(12)));
 		}
+
 	}
 
 	public static class Leggings extends CrocodileArmorItem {
+
 		public Leggings() {
 			super(ArmorItem.Type.LEGGINGS, new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(12)));
 		}
+
 	}
 
 	public static class Boots extends CrocodileArmorItem {
+
 		public Boots() {
 			super(ArmorItem.Type.BOOTS, new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(12)));
 		}
+
 	}
+
 }

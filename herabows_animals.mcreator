@@ -88,63 +88,6 @@
       }
     },
     {
-      "name": "CrocodileScale",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crocodile_scale",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileScaleItem.java",
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_scale.json"
-        ]
-      },
-      "path": "~/Crocodile"
-    },
-    {
-      "name": "CrocodileArmor",
-      "type": "armor",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crocodile_armor",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileArmorItem.java",
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_leggings.json",
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_helmet.json",
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_boots.json",
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_chestplate.json"
-        ]
-      },
-      "path": "~/Crocodile"
-    },
-    {
-      "name": "CrocodileArmorHelmetRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crocodile_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_helmet_recipe.json"
-        ]
-      },
-      "path": "~/Crocodile"
-    },
-    {
-      "name": "CrocodileArmorChestplateRecipe",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "crocodile_armor_chestplate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_chestplate_recipe.json"
-        ]
-      },
-      "path": "~/Crocodile"
-    },
-    {
       "name": "CrocodileArmorLeggingsRecipe",
       "type": "recipe",
       "compiles": true,
@@ -169,6 +112,212 @@
         ]
       },
       "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileScale",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_scale",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileScaleItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_scale.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileArmorItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_leggings.json",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_helmet.json",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_boots.json",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Crocodile"
+    },
+    {
+      "name": "CrocodileMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_meat",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_meat.json",
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileMeatItem.java"
+        ]
+      },
+      "path": "~/Meat/Crocodile"
+    },
+    {
+      "name": "CrocodileMeatCampfire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_meat_campfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_meat_campfire.json"
+        ]
+      },
+      "path": "~/Meat/Crocodile"
+    },
+    {
+      "name": "MouseMeatCampfire",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse_meat_campfire",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/mouse_meat_campfire.json"
+        ]
+      },
+      "path": "~/Meat/Mouse"
+    },
+    {
+      "name": "CrocodileMeatCooked",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_meat_cooked",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_meat_cooked.json",
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileMeatCookedItem.java"
+        ]
+      },
+      "path": "~/Meat/Crocodile"
+    },
+    {
+      "name": "MouseMeat",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse_meat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/MouseMeatItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/mouse_meat.json"
+        ]
+      },
+      "path": "~/Meat/Mouse"
+    },
+    {
+      "name": "MouseMeatCooked",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse_meat_cooked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/item/MouseMeatCookedItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/mouse_meat_cooked.json"
+        ]
+      },
+      "path": "~/Meat/Mouse"
+    },
+    {
+      "name": "Mouse",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/neoforge/biome_modifier/mouse_biome_modifier.json",
+          "src/main/java/net/mcreator/herabowsanimals/client/renderer/MouseRenderer.java",
+          "src/main/java/net/mcreator/herabowsanimals/entity/MouseEntity.java",
+          "src/main/resources/assets/herabows_animals/models/item/mouse_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "MouseMeatSmoker",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse_meat_smoker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/mouse_meat_smoker.json"
+        ]
+      },
+      "path": "~/Meat/Mouse"
+    },
+    {
+      "name": "CrocodileMeatSmoker",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_meat_smoker",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_meat_smoker.json"
+        ]
+      },
+      "path": "~/Meat/Crocodile"
+    },
+    {
+      "name": "CrocodileMeatFurnance",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile_meat_furnance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/crocodile_meat_furnance.json"
+        ]
+      },
+      "path": "~/Meat/Crocodile"
+    },
+    {
+      "name": "MouseMeatFurnance",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse_meat_furnance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/recipe/mouse_meat_furnance.json"
+        ]
+      },
+      "path": "~/Meat/Mouse"
     }
   ],
   "variable_elements": [],
@@ -178,25 +327,23 @@
       "CUSTOM:ReptileArmor.helmet",
       "CUSTOM:ReptileArmor.body",
       "CUSTOM:ReptileArmor.legs",
-      "CUSTOM:ReptileArmor.boots",
-      "CUSTOM:CrocodileArmor.helmet",
-      "CUSTOM:CrocodileArmor.body",
-      "CUSTOM:CrocodileArmor.legs",
-      "CUSTOM:CrocodileArmor.boots"
+      "CUSTOM:ReptileArmor.boots"
     ],
     "ITEMS:minecraft:chest_armor": [
       "~CUSTOM:CrocodileArmor.body",
       "~CUSTOM:ReptileArmor.body"
     ],
+    "ITEMS:minecraft:meat": [
+      "~CUSTOM:MouseMeatCooked",
+      "~CUSTOM:MouseMeat",
+      "~CUSTOM:CrocodileMeatCooked",
+      "~CUSTOM:CrocodileMeat"
+    ],
     "ITEMS:minecraft:trimmable_armor": [
       "CUSTOM:ReptileArmor.helmet",
       "CUSTOM:ReptileArmor.body",
       "CUSTOM:ReptileArmor.legs",
-      "CUSTOM:ReptileArmor.boots",
-      "CUSTOM:CrocodileArmor.helmet",
-      "CUSTOM:CrocodileArmor.body",
-      "CUSTOM:CrocodileArmor.legs",
-      "CUSTOM:CrocodileArmor.boots"
+      "CUSTOM:ReptileArmor.boots"
     ],
     "ITEMS:minecraft:head_armor": [
       "~CUSTOM:CrocodileArmor.helmet",
@@ -213,6 +360,20 @@
   },
   "tab_element_order": {},
   "language_map": {
+    "pl_pl": {
+      "item.herabowsanimals.reptile_armor_leggings": "Gadzie nogawice",
+      "item.herabows_animals.reptile_skin": "Gadzia skóra",
+      "item.herabowsanimals.reptile_skin": "Gadzia skóra",
+      "item.herabows_animals.reptile_armor_boots": "Gadzie buty",
+      "item.herabows_animals.reptile_armor_chestplate": "Gadzi napierśnik",
+      "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
+      "item.herabowsanimals.reptile_armor_boots": "Gadzie buty",
+      "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
+      "item.herabows_animals.reptile_armor_helmet": "Gadzi hełm",
+      "item.herabows_animals.reptile_armor_leggings": "Gadzie nogawice",
+      "item.herabowsanimals.reptile_armor_helmet": "Gadzi hełm",
+      "item.herabowsanimals.reptile_armor_chestplate": "Gadzi napierśnik"
+    },
     "en_us": {
       "item.herabowsanimals.reptile_armor_leggings": "Reptile Leggings",
       "item.herabows_animals.reptile_skin": "Reptile Skin",
@@ -220,17 +381,12 @@
       "item.herabows_animals.reptile_armor_boots": "Reptile Boots",
       "item.herabows_animals.reptile_armor_chestplate": "Reptile Chestplate",
       "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
-      "item.herabows_animals.crocodile_armor_chestplate": "Crocodile Chestplate",
-      "item.herabows_animals.crocodile_armor_leggings": "Crocodile Leggings",
       "item.herabowsanimals.reptile_armor_boots": "Reptile Boots",
-      "item.herabows_animals.crocodile_armor_helmet": "Crocodile Helmet",
-      "item.herabows_animals.crocodile_scale": "Crocodile Scale",
       "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
       "item.herabows_animals.reptile_armor_helmet": "Reptile Helmet",
       "item.herabows_animals.reptile_armor_leggings": "Reptile Leggings",
       "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
-      "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
-      "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots"
+      "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate"
     }
   },
   "foldersRoot": {
@@ -241,11 +397,24 @@
         "children": []
       },
       {
-        "name": "Komodo Warran",
-        "children": []
+        "name": "Meat",
+        "children": [
+          {
+            "name": "Crocodile",
+            "children": []
+          },
+          {
+            "name": "Mouse",
+            "children": []
+          }
+        ]
       },
       {
         "name": "Snakes",
+        "children": []
+      },
+      {
+        "name": "Komodo Warran",
         "children": []
       }
     ]

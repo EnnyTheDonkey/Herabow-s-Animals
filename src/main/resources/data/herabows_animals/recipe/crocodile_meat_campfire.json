@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 1,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "herabows_animals:crocodile_meat"
+  },
+  "result": {
+    "id": "herabows_animals:deleted_mod_element"
+  }
+}

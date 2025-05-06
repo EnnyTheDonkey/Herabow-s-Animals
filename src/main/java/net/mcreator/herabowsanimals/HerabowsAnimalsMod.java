@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.herabowsanimals.init.HerabowsAnimalsModTabs;
 import net.mcreator.herabowsanimals.init.HerabowsAnimalsModItems;
+import net.mcreator.herabowsanimals.init.HerabowsAnimalsModEntities;
 
 import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.Map;
@@ -40,7 +41,7 @@ public class HerabowsAnimalsMod {
 		modEventBus.addListener(this::registerNetworking);
 
 		HerabowsAnimalsModItems.REGISTRY.register(modEventBus);
-
+		HerabowsAnimalsModEntities.REGISTRY.register(modEventBus);
 		HerabowsAnimalsModTabs.REGISTRY.register(modEventBus);
 
 		// Start of user code block mod init
