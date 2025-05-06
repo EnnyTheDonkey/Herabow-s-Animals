@@ -12,9 +12,6 @@
     "textureBoots": "reptile_boots",
     "creativeTabs": [
       {
-        "value": "COMBAT"
-      },
-      {
         "value": "CUSTOM:HBAnimals"
       }
     ],

@@ -12,7 +12,7 @@
     "textureBoots": "crocodile_boots",
     "creativeTabs": [
       {
-        "value": "COMBAT"
+        "value": "CUSTOM:HBAnimals"
       }
     ],
     "armorTextureFile": "crocodile",

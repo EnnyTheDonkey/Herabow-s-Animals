@@ -5,10 +5,21 @@
   "item.herabows_animals.reptile_armor_chestplate": "Gadzi napierśnik",
   "item.herabows_animals.reptile_armor_boots": "Gadzie buty",
   "item_group.herabows_animals.hb_animals": "Herabow\u0027s Animals",
+  "item.herabows_animals.crocodile_meat": "Crocodile Meat",
+  "item.herabows_animals.crocodile_armor_chestplate": "Crocodile Chestplate",
+  "item.herabows_animals.mouse_spawn_egg": "Mouse Spawn Egg",
+  "item.herabows_animals.crocodile_armor_leggings": "Crocodile Leggings",
+  "item.herabows_animals.mouse_meat": "Mouse Meat",
   "item.herabowsanimals.reptile_armor_boots": "Gadzie buty",
+  "item.herabows_animals.crocodile_armor_helmet": "Crocodile Helmet",
+  "item.herabows_animals.crocodile_scale": "Crocodile Scale",
   "item_group.herabowsanimals.hb_animals": "Herabow\u0027s Animals",
   "item.herabows_animals.reptile_armor_helmet": "Gadzi hełm",
   "item.herabows_animals.reptile_armor_leggings": "Gadzie nogawice",
+  "item.herabows_animals.mouse_meat_cooked": "Cooked Mouse Meat",
   "item.herabowsanimals.reptile_armor_helmet": "Gadzi hełm",
-  "item.herabowsanimals.reptile_armor_chestplate": "Gadzi napierśnik"
+  "item.herabowsanimals.reptile_armor_chestplate": "Gadzi napierśnik",
+  "item.herabows_animals.crocodile_meat_cooked": "Cooked Crocodile Meat",
+  "entity.herabows_animals.mouse": "Mouse",
+  "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots"
 }

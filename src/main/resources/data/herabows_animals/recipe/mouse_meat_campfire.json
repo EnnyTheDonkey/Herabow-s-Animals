@@ -5,9 +5,9 @@
   "experience": 1,
   "cookingtime": 600,
   "ingredient": {
-    "item": "herabows_animals:deleted_mod_element"
+    "item": "herabows_animals:mouse_meat"
   },
   "result": {
-    "id": "herabows_animals:deleted_mod_element"
+    "id": "herabows_animals:mouse_meat_cooked"
   }
 }

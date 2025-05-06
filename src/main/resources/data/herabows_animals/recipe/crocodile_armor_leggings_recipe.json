@@ -8,11 +8,11 @@
   ],
   "key": {
     "a": {
-      "item": "herabows_animals:deleted_mod_element"
+      "item": "herabows_animals:crocodile_scale"
     }
   },
   "result": {
-    "id": "herabows_animals:deleted_mod_element_leggings",
+    "id": "herabows_animals:crocodile_armor_leggings",
     "count": 1
   }
 }
