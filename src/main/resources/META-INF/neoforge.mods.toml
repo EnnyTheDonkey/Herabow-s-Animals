@@ -28,6 +28,12 @@ authors="Papa Enny , MCreator"
     side="BOTH"
 
 
+[[dependencies.herabows_animals]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

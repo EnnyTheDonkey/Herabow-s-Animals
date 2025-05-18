@@ -23,7 +23,7 @@ import net.mcreator.herabowsanimals.HerabowsAnimalsMod;
 public class HerabowsAnimalsModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, HerabowsAnimalsMod.MODID);
 	public static final DeferredHolder<EntityType<?>, EntityType<MouseEntity>> MOUSE = register("mouse",
-			EntityType.Builder.<MouseEntity>of(MouseEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
+			EntityType.Builder.<MouseEntity>of(MouseEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
 

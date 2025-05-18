@@ -18,8 +18,8 @@
       "registry_name": "reptile_skin",
       "metadata": {
         "files": [
-          "src/main/resources/assets/herabows_animals/models/item/reptile_skin.json",
-          "src/main/java/net/mcreator/herabowsanimals/item/ReptileSkinItem.java"
+          "src/main/java/net/mcreator/herabowsanimals/item/ReptileSkinItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/reptile_skin.json"
         ]
       }
     },
@@ -31,11 +31,11 @@
       "registry_name": "reptile_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/herabows_animals/models/item/reptile_armor_helmet.json",
-          "src/main/resources/assets/herabows_animals/models/item/reptile_armor_chestplate.json",
           "src/main/resources/assets/herabows_animals/models/item/reptile_armor_leggings.json",
           "src/main/resources/assets/herabows_animals/models/item/reptile_armor_boots.json",
-          "src/main/java/net/mcreator/herabowsanimals/item/ReptileArmorItem.java"
+          "src/main/resources/assets/herabows_animals/models/item/reptile_armor_chestplate.json",
+          "src/main/java/net/mcreator/herabowsanimals/item/ReptileArmorItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/reptile_armor_helmet.json"
         ]
       }
     },
@@ -148,11 +148,11 @@
       "registry_name": "crocodile_armor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileArmorItem.java",
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_leggings.json",
           "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_helmet.json",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_chestplate.json",
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileArmorItem.java",
           "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_boots.json",
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_chestplate.json"
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_armor_leggings.json"
         ]
       },
       "path": "~/Crocodile"
@@ -218,8 +218,8 @@
       "registry_name": "crocodile_meat_cooked",
       "metadata": {
         "files": [
-          "src/main/resources/assets/herabows_animals/models/item/crocodile_meat_cooked.json",
-          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileMeatCookedItem.java"
+          "src/main/java/net/mcreator/herabowsanimals/item/CrocodileMeatCookedItem.java",
+          "src/main/resources/assets/herabows_animals/models/item/crocodile_meat_cooked.json"
         ]
       },
       "path": "~/Meat/Crocodile"
@@ -251,21 +251,6 @@
         ]
       },
       "path": "~/Meat/Mouse"
-    },
-    {
-      "name": "Mouse",
-      "type": "livingentity",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mouse",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/herabows_animals/neoforge/biome_modifier/mouse_biome_modifier.json",
-          "src/main/java/net/mcreator/herabowsanimals/client/renderer/MouseRenderer.java",
-          "src/main/java/net/mcreator/herabowsanimals/entity/MouseEntity.java",
-          "src/main/resources/assets/herabows_animals/models/item/mouse_spawn_egg.json"
-        ]
-      }
     },
     {
       "name": "MouseMeatSmoker",
@@ -318,6 +303,58 @@
         ]
       },
       "path": "~/Meat/Mouse"
+    },
+    {
+      "name": "Mouse",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mouse",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/herabows_animals/neoforge/biome_modifier/mouse_biome_modifier.json",
+          "src/main/java/net/mcreator/herabowsanimals/entity/model/MouseModel.java",
+          "src/main/java/net/mcreator/herabowsanimals/client/renderer/MouseRenderer.java",
+          "src/main/resources/assets/herabows_animals/models/item/mouse_spawn_egg.json",
+          "src/main/java/net/mcreator/herabowsanimals/entity/MouseEntity.java"
+        ]
+      },
+      "path": "~/Mouse"
+    },
+    {
+      "name": "LootTables",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "loot_tables",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/herabowsanimals/procedures/LootTablesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Other"
     }
   ],
   "variable_elements": [],
@@ -394,8 +431,8 @@
       "item.herabowsanimals.reptile_armor_helmet": "Gadzi hełm",
       "item.herabowsanimals.reptile_armor_chestplate": "Gadzi napierśnik",
       "item.herabows_animals.crocodile_meat_cooked": "Cooked Crocodile Meat",
-      "entity.herabows_animals.mouse": "Mouse",
-      "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots"
+      "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots",
+      "entity.herabows_animals.mouse": "Mouse"
     },
     "en_us": {
       "item.herabowsanimals.reptile_armor_leggings": "Reptile Leggings",
@@ -419,8 +456,8 @@
       "item.herabowsanimals.reptile_armor_helmet": "Reptile Helmet",
       "item.herabowsanimals.reptile_armor_chestplate": "Reptile Chestplate",
       "item.herabows_animals.crocodile_meat_cooked": "Cooked Crocodile Meat",
-      "entity.herabows_animals.mouse": "Mouse",
-      "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots"
+      "item.herabows_animals.crocodile_armor_boots": "Crocodile Boots",
+      "entity.herabows_animals.mouse": "Mouse"
     }
   },
   "foldersRoot": {
@@ -450,6 +487,14 @@
       {
         "name": "Komodo Warran",
         "children": []
+      },
+      {
+        "name": "Mouse",
+        "children": []
+      },
+      {
+        "name": "Other",
+        "children": []
       }
     ]
   },
@@ -464,7 +509,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.herabowsanimals"
